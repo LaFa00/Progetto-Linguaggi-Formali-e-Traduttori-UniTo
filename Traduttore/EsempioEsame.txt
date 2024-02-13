@@ -1,0 +1,6 @@
+
+read(_pippo1);
+while (> _pippo1 0) 
+    cond     when (> _pippo1 10) do {= _pippo1 - _pippo1 2; print(_pippo1)}
+        else {= _pippo1 - _pippo1 1; print(_pippo1)};
+print(_pippo1 +(2 3 4))
